@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Brandon Grotesque';
+    font-weight: 200;
+    src: url("../fonts/Brandon_thin.otf") format("opentype");
+}
+
 header {
   background-image: url('../img/photo_header.jpg');
   background-size: cover;
@@ -59,9 +65,12 @@ header h1 {
 #about-section {
   background: #0c121c;
   color: #fff;
+  padding-bottom: 55px;
 }
 
 .line_marker {
+  position: relative;
+  bottom: -3px;
   width: 100%;
 }
 
@@ -75,4 +84,24 @@ header h1 {
 
 .pr-0 {
   padding-right: 0;
+}
+
+.about-section__head {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 27px;
+  color: rgba(235, 235, 235, .1);
+  padding-top: 35px;
+}
+
+.about-section__head .active {
+  color: #a77c5a;
+}
+
+.about-section__content {
+  padding-top: 25px;
+  color: rgba(255, 255, 255, .5);
+  font-family: 'Brandon Grotesque';
+  font-weight: 200;
+  font-size: 16px;
 }
