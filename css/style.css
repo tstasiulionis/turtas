@@ -1,0 +1,57 @@
+header {
+  background-image: url('../img/photo_header.jpg');
+  background-size: cover;
+  height: 808px;
+}
+
+.nav {
+  height: 150px;
+  background-image: linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.0));
+}
+
+.header-line {
+  position: relative;
+  padding-top: 20px;
+}
+
+.header-line__col {
+  display: inline-block;
+}
+
+.menu-icons {
+  position: absolute;
+  right: 15px;
+}
+
+.icon_fb {
+  margin-right: 30px;
+}
+
+.icon_search {
+  margin-right: 70px;
+}
+
+.line__col-w15 {
+  width: 15%;
+}
+
+.line__col-w70 {
+  width: 70%;
+}
+
+.icon_offer {
+  margin-right: 10px;
+}
+
+header h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 47px;
+  color: #fff;
+  margin-top: 220px;
+}
+
+.icon_line {
+  display: block;
+  margin: 25px auto 20px;
+}
