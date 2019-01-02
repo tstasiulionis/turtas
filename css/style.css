@@ -55,3 +55,24 @@ header h1 {
   display: block;
   margin: 25px auto 20px;
 }
+
+#about-section {
+  background: #0c121c;
+  color: #fff;
+}
+
+.line_marker {
+  width: 100%;
+}
+
+.border_liner {
+  border-bottom: 1px solid #30353e;
+}
+
+.pl-0 {
+  padding-left: 0;
+}
+
+.pr-0 {
+  padding-right: 0;
+}
