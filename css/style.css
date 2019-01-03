@@ -4,6 +4,12 @@
     src: url("../fonts/Brandon_thin.otf") format("opentype");
 }
 
+@font-face {
+    font-family: 'Brandon Grotesque';
+    font-weight: 300;
+    src: url("../fonts/Brandon_light.otf") format("opentype");
+}
+
 header {
   background-image: url('../img/photo_header.jpg');
   background-size: cover;
@@ -104,4 +110,62 @@ header h1 {
   font-family: 'Brandon Grotesque';
   font-weight: 200;
   font-size: 16px;
+}
+
+.main-block {
+  position: relative;
+  padding-top: 5px;
+}
+
+.main-block__text-item {
+  padding-top: 55px;
+}
+
+.main-block__burger {
+  float: right;
+}
+
+.main-block__head {
+  padding-bottom: 25px;
+}
+
+.main-block__line {
+  display: inline-block;
+  border-bottom: 1px solid #cab09c;
+}
+
+.main-block__content {
+  padding-top: 15px;
+  font-family: 'Brandon Grotesque';
+  font-weight: 300;
+}
+
+.main-block__content p:last-child {
+  margin-bottom: 0;
+}
+
+.line--sm {
+  width: 40px;
+}
+
+.line--md {
+  width: 65px;
+}
+
+.main-block h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 34px;
+}
+
+.main-block__more {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 9px;
+  color: #03030e;
+}
+
+.main-block__img {
+  position: absolute;
+  right: 0;
 }
