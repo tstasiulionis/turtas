@@ -115,6 +115,7 @@ header h1 {
 .main-block {
   position: relative;
   padding-top: 5px;
+  padding-bottom: 33px;
 }
 
 .main-block__text-item {
@@ -167,5 +168,95 @@ header h1 {
 
 .main-block__img {
   position: absolute;
+  max-width: 50%;
+}
+
+.main-block__img-right {
   right: 0;
+}
+
+.main-block__img-left {
+  left: 0;
+}
+
+.posts-box {
+  position: relative;
+  margin-top: 25px;
+}
+
+.posts-box__row {
+  padding: 25px 0;
+  border: 1px solid #f5f5f5;
+}
+
+.posts-box__arrow-l {
+  position: absolute;
+  left: 0;
+  top: 25px;
+}
+
+.posts-box__arrow-r {
+  position: absolute;
+  right: 0;
+  top: 25px;
+}
+
+.post-box__item {
+  width: 18%;
+  display: inline-block;
+  float: left;
+  margin: 0 1%;
+  border: 1px solid #be9f86;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.posts-box__head {
+  position: relative;
+  z-index: 9;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  padding-bottom: 5px;
+  margin-bottom: 8px;
+  color: #070c14;
+  border-bottom: 1px solid #be9f86;
+}
+
+.posts-box__image {
+  position: relative;
+}
+
+.posts-box__image,
+.posts-box__image img {
+  width: 100%;
+}
+
+.post-box__triangle {
+  display: inline-block;
+  background: #fff;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  margin-left: -10px;
+  transform: rotate(45deg);
+}
+
+footer {
+  color: rgba(255, 255, 255, .5);
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  background: #0c121c;
+  padding: 30px 0;
+}
+
+.social-box {
+  float: right;
+}
+
+.footer__social i {
+  margin-left: 30px;
+  color: #a77c5a;
+  font-size: 14px;
 }
