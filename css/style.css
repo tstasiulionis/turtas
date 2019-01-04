@@ -120,8 +120,21 @@ nav {
   padding-bottom: 33px;
 }
 
-.main-block__text-item {
+.posts-wrapper .posts-block:first-child {
+  padding-top: 25px;
+}
+
+.posts-wrapper .posts-block:last-child {
+  margin-bottom: 110px;
+}
+
+.main-block__text-item,
+.posts-block__text-item {
   padding-top: 55px;
+}
+
+.posts-block__text-item {
+  padding-bottom: 80px;
 }
 
 .main-block__burger {
@@ -155,7 +168,8 @@ nav {
   width: 65px;
 }
 
-.main-block h2 {
+.main-block h2,
+.posts-block h2 {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
   font-size: 34px;
@@ -168,9 +182,14 @@ nav {
   color: #03030e;
 }
 
-.main-block__img {
+.main-block__img,
+.posts-block__img {
   position: absolute;
   max-width: 50%;
+}
+
+.posts-block__img {
+  height: 100%;
 }
 
 .main-block__img-right {
@@ -340,4 +359,45 @@ footer {
   font-weight: 300;
   font-size: 16px;
   color: #070c14;
+}
+
+.post-single {
+  padding-top: 22px;
+}
+
+.post-single img {
+  display: inline-block;
+  float: left;
+  max-width: 50%;
+  max-height: 390px;
+  margin-right: 20px;
+}
+
+.post-single p {
+  font-family: 'Brandon Grotesque';
+  font-weight: 300;
+  font-size: 13px;
+  text-align: justify;
+}
+
+.posts-btn {
+  display: inline-block;
+  width: 180px;
+  padding: 10px 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  box-sizing: border-box;
+  border: 1px solid #a77c5a;
+}
+
+.posts-btn-main {
+  background: #a77c5a;
+  color: #f2ebe6;
+}
+
+.posts-btn-secondary {
+  color: #a77c5a;
 }
