@@ -270,6 +270,7 @@ footer {
   font-size: 12px;
   background: #0c121c;
   padding: 30px 0;
+  height: 80px;
 }
 
 .social-box {
@@ -381,9 +382,11 @@ footer {
 }
 
 .posts-btn {
+  cursor: pointer;
   display: inline-block;
+  line-height: 0.9;
   width: 180px;
-  padding: 10px 0;
+  padding: 15px 0;
   text-align: center;
   text-transform: uppercase;
   font-family: 'Josefin Sans', sans-serif;
@@ -393,11 +396,144 @@ footer {
   border: 1px solid #a77c5a;
 }
 
+.posts-btn:hover {
+  text-decoration: none;
+}
+
+.posts-btn:focus {
+  outline: none;
+}
+
 .posts-btn-main {
   background: #a77c5a;
+  color: #f2ebe6;
+}
+
+.posts-btn-main:hover {
   color: #f2ebe6;
 }
 
 .posts-btn-secondary {
   color: #a77c5a;
 }
+
+.posts-btn-secondary:hover {
+  color: #a77c5a;
+}
+
+.posts-btn:first-of-type i {
+  margin-left: 20px;
+}
+
+.posts-btn:nth-child(2) i {
+  margin-right: 20px;
+}
+
+.posts-btn-row {
+  margin-top: 10px;
+  margin-bottom: 65px;
+}
+
+.contact-box {
+  background: #101620;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  padding-top: 115px;
+  padding-bottom: 65px;
+}
+
+.contact-box__info {
+  padding-left: 100px;
+}
+
+.contact-box__info h2 {
+  display: inline-block;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #524238;
+  font-size: 22px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+}
+
+.contact-box__form h2 {
+  font-size: 22px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+}
+
+.contact-box__item {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.contact-box__item img {
+  margin-bottom: 15px;
+}
+
+.contact-box__item p:first-of-type {
+  margin-bottom: 10px;
+  font-size: 10px;
+}
+
+.contact-box__item p {
+  margin-bottom: 5px;
+  line-height: 0.9;
+  font-size: 13px;
+}
+
+.contact-box__item a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.turtas-input {
+  width: 100%;
+  background: transparent;
+  border: 1px solid #524238;
+  padding: 10px 20px;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.turtas-input:focus {
+  outline: none;
+}
+
+.turtas-input::placeholder {
+  color: rgba(255, 255, 255, .1);
+}
+
+.form-row>.col.pl-10 {
+  padding-left: 10px;
+}
+
+.form-row>.col.pr-10 {
+  padding-right: 10px;
+}
+
+.contact-box__form .form-row {
+  margin-bottom: 20px;
+}
+
+.contact-box__form textarea {
+  resize: none;
+  height: 200px;
+}
+
+.content-wrap {
+  min-height: calc(100vh - 80px);
+}
+
+.about-img-wrapper,
+.about-img-wrapper img {
+  width: 100%;
+}
+
+.about-img-wrapper img {
+  min-height: 620px;
+  height: calc(100vh - 240px);
+}
+
