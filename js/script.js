@@ -30,3 +30,9 @@ $(".inner-header__arrow:nth-of-type(2)").on('click',
         console.log('hello2');
     }
 );  
+
+// Stop scrolling, when menu is open
+// $('body').css({'overflow':'hidden'});
+//   $(document).bind('scroll',function () { 
+//     window.scrollTo(0,0); 
+// });
