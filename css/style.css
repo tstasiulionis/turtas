@@ -45,12 +45,12 @@ nav {
   margin-right: 70px;
 }
 
-.line__col-w15 {
-  width: 15%;
+.line__col-w25 {
+  width: 25%;
 }
 
-.line__col-w70 {
-  width: 70%;
+.line__col-w50 {
+  width: 50%;
 }
 
 .icon_offer {
@@ -214,6 +214,8 @@ nav {
   padding-top: 15px;
   font-family: 'Brandon Grotesque';
   font-weight: 300;
+  overflow: hidden;
+  overflow-y: scroll;
 }
 
 .main-block__content p:last-child {
@@ -640,14 +642,12 @@ footer {
 }
 
 .half-cont-right {
-  width: 570px;
   margin-left: 0;
   margin-right: auto;
   padding-right: 15px;
 }
 
 .half-cont-left {
-  width: 570px;
   margin-right: 0;
   margin-left: auto;
   padding-left: 15px;
