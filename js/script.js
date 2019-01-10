@@ -36,3 +36,18 @@ $(".inner-header__arrow:nth-of-type(2)").on('click',
 //   $(document).bind('scroll',function () { 
 //     window.scrollTo(0,0); 
 // });
+
+$('.menu-burger-link').click(function() {
+    $('.menu-main').addClass('menu-main--open');
+    $(".menu-main").fadeIn(3000);
+    $('body').css({'overflow':'hidden'});
+    $(document).bind('scroll',function () { 
+        window.scrollTo(0,0); 
+    });
+});
+
+$('.burger-menu-close').click(function() {
+    $('.menu-main').removeClass('menu-main--open');
+    $('body').css({'overflow':'auto'});
+    $(document).unbind('scroll');
+});

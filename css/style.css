@@ -19,8 +19,14 @@
 nav {
   width: 100%;
   position: absolute;
+  z-index: 999;
   height: 150px;
   background-image: linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.0));
+}
+
+.icon-link {
+  display: inline-block;
+  padding: 0px 5px;
 }
 
 .header-line {
@@ -37,12 +43,12 @@ nav {
   right: 15px;
 }
 
-.icon_fb {
-  margin-right: 30px;
+.fb-i-wrap {
+  margin-right: 20px;
 }
 
-.icon_search {
-  margin-right: 70px;
+.search-i-wrap {
+  margin-right: 60px;
 }
 
 .line__col-w25 {
@@ -53,9 +59,9 @@ nav {
   width: 50%;
 }
 
-.icon_offer {
+/*.offer-i-wrap {
   margin-right: 10px;
-}
+}*/
 
 .header-landing h1 {
   font-family: 'Josefin Sans', sans-serif;
@@ -266,6 +272,10 @@ nav {
 .posts-block__img {
   position: absolute;
   max-width: 50%;
+}
+
+.posts-block .col-lg-6 {
+  position: static;
 }
 
 .posts-block__img {
@@ -687,7 +697,7 @@ footer {
 }
 
 .menu-main {
-  display: none;
+  visibility: hidden;
   position: absolute;
   z-index: 9999;
   width: 100%;
@@ -700,7 +710,7 @@ footer {
 }
 
 .menu-main--open {
-  display: block;
+  visibility: visible;
 }
 
 .menu-main__close {
@@ -758,7 +768,44 @@ footer {
   padding-bottom: 33px;
 }
 
-/*.index-main-cont .main-block:nth{
-  padding-top: 5px;
-  padding-bottom: 33px;
-}*/
+.logo-wrap {
+  display: inline-block;
+  width: 132px;
+}
+
+.logo-wrap img {
+  width: 100%;
+}
+
+.offer-i-wrap {
+  display: inline-block;
+  width: 33px;
+}
+
+.offer-i-wrap img {
+  width: 100%;
+}
+
+.fb-i-wrap,
+.search-i-wrap,
+.burger-i-wrap {
+  display: inline-block;
+}
+
+.fb-i-wrap img,
+.search-i-wrap img,
+.burger-i-wrap img {
+  width: 100%;
+}
+
+.fb-i-wrap {
+  width: 9px;
+}
+
+.search-i-wrap {
+  width: 14px;
+}
+
+.burger-i-wrap {
+  width: 27px;
+}
