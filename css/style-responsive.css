@@ -57,10 +57,6 @@
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-  .line_marker {
-    bottom: -12px;
-  }
-
   .half-cont-md-mx {
     width: 550px;
   }
@@ -142,9 +138,6 @@
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .line_marker {
-    bottom: -9px;
-  }
 }
 
 @media (min-width: 576px) and (max-width: 991.98px) {
@@ -180,10 +173,6 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  .line_marker {
-    bottom: -5px;
-  }
-
   .main-block-img-wrapper img {
     height: 544px;
   }
