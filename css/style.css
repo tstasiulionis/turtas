@@ -248,18 +248,34 @@ nav {
   width: 220px;
 }
 
-.image-line {
+.image-line,
+.post-line {
   position: absolute;
   z-index: 9999;
+}
+
+.image-line {
   top: 175px;
+}
+
+.post-line {
+  top: 210px;
 }
 
 .image-line--right {
   right: -270px;
 }
 
+.post-line--right {
+  right: -230px;
+}
+
 .image-line--left {
   left: -270px;
+}
+
+.post-line--left {
+  left: -230px;
 }
 
 .main-block h2,

@@ -163,6 +163,10 @@
     max-width: 100%;
     position: relative;
   }
+
+  .main-block__text-item {
+    padding-bottom: 20px;
+  }
 }
 
 @media (min-width: 991.98px) {
@@ -183,7 +187,8 @@
 }
 
 @media (max-width: 1199.98px) {
-  .image-line {
+  .image-line,
+  .post-line {
     display: none;
   }
 }
